@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 
+
 /* --------------------------
     Body
 ----------------------------- */
@@ -93,6 +94,7 @@ nav ul li:last-child:after { /* Para eliminar la ultima barra*/
 ----------------------------- */
 .seccion{
     margin: 20px 0;
+    
   
 }
 
@@ -114,6 +116,8 @@ nav ul li:last-child:after { /* Para eliminar la ultima barra*/
 .seccion figure a img{ /*Ajustar la imagen estableciendo la altura y la anchura */
     height: 100%;
     width: 100%;
+    float: left;
+    
 }
 
 .seccion figure dl{
@@ -146,6 +150,7 @@ nav ul li:last-child:after { /* Para eliminar la ultima barra*/
     font-size: 12px;
     margin-bottom: -16px;
 }
-.work figure dl dd { /*Ligero margen inzquierdo*/
-    margin-left: 0;
+
+@media only screen and (max-width:768px) {
 }
+

@@ -140,7 +140,7 @@ nav ul li:last-child:after { /* Para eliminar la ultima barra*/
     opacity: 1;
 }
 
-.seccion figure dl dt {
+.seccion figure dl dd {
     text-transform: uppercase; /*Convertir en mayuscula*/
     font-family: 'PT Sans Narrow';
     font-size: 12px;
